@@ -38,6 +38,6 @@ async def save_task():
 
 if __name__ == "__main__":
     load_data()
-    app.run(debug=True,host="0.0.0.0",threaded = True)
+    app.run(threaded = True)
     save_task()
     
